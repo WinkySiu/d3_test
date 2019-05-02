@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {"id": "All Label", "group": 1},
+    {"id": "Label 0", "group": 2},
+    {"id": "Label 1", "group": 3},
+    {"id": "Label 2", "group": 4},
+    {"id": "Label 3", "group": 5},
+    {"id": "Label 4", "group": 6},
+    {"id": "Label 0 菌1", "group": 2},
+    {"id": "Label 0 菌2", "group": 2},
+    {"id": "Label 1 菌1", "group": 3},
+    {"id": "Label 1 菌2", "group": 3},
+    {"id": "Label 2 菌1", "group": 4},
+    {"id": "Label 3 菌1", "group": 5},
+    {"id": "Label 4 菌1", "group": 6}
+  ],
+  "links": [
+    {"source": "Label 1", "target": "All Label", "value": 2},
+    {"source": "Label 2", "target": "All Label", "value": 2},
+    {"source": "Label 3", "target": "All Label", "value": 2},
+    {"source": "Label 4", "target": "All Label", "value": 2},
+    {"source": "Label 0", "target": "All Label", "value": 2},
+    {"source": "Label 0 菌1", "target": "Label 0", "value": 2},
+    {"source": "Label 0 菌2", "target": "Label 0", "value": 2},
+    {"source": "Label 1 菌1", "target": "Label 1", "value": 2},
+    {"source": "Label 1 菌2", "target": "Label 1", "value": 2},
+    {"source": "Label 2 菌1", "target": "Label 2", "value": 2},
+    {"source": "Label 3 菌1", "target": "Label 3", "value": 2},
+    {"source": "Label 4 菌1", "target": "Label 4", "value": 2}
+  ]
+}
